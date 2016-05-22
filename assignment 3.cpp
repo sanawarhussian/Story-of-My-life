@@ -40,7 +40,7 @@
  }
  
  void display_de()
- {
+ {cout << " its good if you have selected the MTS department \n but if you haven't entered MTS department imma' take you to the MTS Department anyway"<<endl; 
  cout << "Now your are in "<<getmydepartment()<< " Department of CEME"<<endl;
  
  
@@ -209,7 +209,7 @@ if ( age >= death_age)
 char responce_1;
 char responce_2;
 string DE;
-cout << "From which Department of CEME you belong ? "<<endl; 
+cout << "From which Department of CEME you belong ? (clue : Enter MTS department)  "<<endl; 
 getline(cin , DE);
 EME.setmydepartment(DE);
 EME.display_de();
