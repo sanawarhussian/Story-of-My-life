@@ -41,7 +41,7 @@
  
  void display_de()
  {
- cout << "Now your are in "<<getmydepartment()<< "Department of CEME"<<endl;
+ cout << "Now your are in "<<getmydepartment()<< " Department of CEME"<<endl;
  
  
  }
@@ -80,6 +80,17 @@ cout << "threats of signing up for a time of four years full of threats, and whe
 
  cout <<"This word was taken so seriously by a degree mate that he asked the Professor ,”Sir! kya Hum Diploma ker rahey hein..??”"<<endl;
  }
+ void Being_in_MTS()
+ {
+ cout << "apart from all the struggles and hardships, “Hard work is the key to success” " <<endl;
+	 cout << "becomes inspirational and self practiced quote of all MTS students."<<endl; 
+	 cout << "And when we return to our room with a project in our hand, damn it really"<<endl;  
+	 cout << "attracts all other departments including #Velas, #Theetas, #Dabbas."<<endl; 
+	 cout << "And whatever it is like, it is sure fun to be #Khuwar in MTS..!!"<<endl; 
+ 
+ 
+ }
+
  private :
 	string de_name;
 
@@ -230,8 +241,12 @@ cout << "Not interested ? , Meh , let's move on  "<<endl;
 
 }
 
+cout << "Being a Part of MTS Department has its great Moments also "<<endl;
 
-	cout << "SO here is the story of"<<Protagonist<<"'s life in a Nut Shell "<<endl;
+EME.Being_in_MTS();
+cout <<endl;
+cout <<endl;
+cout << "SO here is the story of "<<Protagonist<<"'s life in a Nut Shell "<<endl;
 
 cout << "age					"<<current_age<<endl;
 cout << "Gender					"<< Gender<<endl;
